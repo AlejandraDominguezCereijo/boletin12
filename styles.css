@@ -1,0 +1,131 @@
+
+
+html {
+    font-family: 'Helvetica Neue';
+}
+
+body {
+    margin: 0;
+    
+}
+hr{
+    border-style: solid;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+#lineaInferior{
+    margin-bottom: 3em;
+}
+#izquierda{
+    text-align: justify;
+}
+#derecha{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+#tabla{
+   
+    text-align: center;
+    
+}
+table{
+    margin: auto;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+#descripcion{
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 3em;
+}
+
+article {
+    flex: 1;
+    border-width: 1px;
+    padding: 2em;
+  
+}
+#primero{
+    background-color: sandybrown;
+    padding: 3em;
+    
+}
+#segundo{
+    background-color: sandybrown;
+    margin-left: 3em;
+    padding: 1em;
+}
+#tercero{
+    background-color: sandybrown;
+    margin-left: 3em;
+    padding: 3em;
+    
+}
+article:nth-child(2) {
+    flex: 2;
+}
+
+#tablero {
+    border-style: solid;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    height: 50vh;
+  
+}
+
+#tablero div {
+    border-style: solid;
+    padding: 5px;
+}
+#uno{
+    border-top: 0em;
+    border-left: 0em;
+    border-right: 0em;
+    border-bottom: 0em;
+}
+#dos{
+    border-top: 0em;
+    border-right: 0em;
+    border-bottom: 0em;
+}
+#tres{
+    border-top: 0em;
+    border-right: 0em;
+    border-bottom: 0em;
+}
+#cuatro{
+border-left: 0em;
+border-right: 0em;
+border-bottom: 0em;
+}
+#cinco{
+    border-bottom: 0em;
+    border-right: 0em;
+}
+#seis{
+    border-right: 0em;
+    border-bottom: 0em;
+}
+#siete{
+    border-left: 0em;
+    border-right: 0em;
+    border-bottom: 0em;
+}
+#ocho{
+    border-right: 0em;
+    border-bottom: 0em; 
+}
+#nueve{
+    border-right: 0em;
+    border-bottom: 0em;
+}
