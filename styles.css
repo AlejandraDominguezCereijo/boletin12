@@ -51,22 +51,30 @@ article {
     flex: 1;
     border-width: 1px;
     padding: 2em;
-  
 }
 #primero{
     background-color: sandybrown;
+    background-image: url(img/los_simpson_apocalipsis_disney_fox_crop1611162471529.jpg_1159711837.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     padding: 3em;
+    color: white;
     
 }
 #segundo{
     background-color: sandybrown;
+    background-image: url(img/dcw5w7v-16108999-1e16-41f8-8ae9-272a7fbcce83.png);
+    background-repeat: no-repeat;
     margin-left: 3em;
     padding: 1em;
 }
 #tercero{
     background-color: sandybrown;
+    background-image: url(img/Lilo-Stitch.jpg);
+    background-size: contain;
     margin-left: 3em;
     padding: 3em;
+    color: white;
     
 }
 article:nth-child(2) {
