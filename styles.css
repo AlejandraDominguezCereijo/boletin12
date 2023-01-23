@@ -54,29 +54,23 @@ article {
 }
 #primero{
     background-color: sandybrown;
-    background-image: url(img/los_simpson_apocalipsis_disney_fox_crop1611162471529.jpg_1159711837.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
     padding: 3em;
     color: rgb(205, 238, 85);
     
 }
 #segundo{
     background-color: sandybrown;
-    background-image: url(img/dcw5w7v-16108999-1e16-41f8-8ae9-272a7fbcce83.png);
-    background-repeat: no-repeat;
-    background-position: 0em;
     margin-left: 3em;
     padding: 1em;
 }
 #tercero{
     background-color: sandybrown;
-    background-image: url(img/Lilo-Stitch.jpg);
-    background-size: contain;
     margin-left: 3em;
     padding: 3em;
-    color: white;
-    
+    color: white; 
+}
+#imagine{
+    margin-bottom: 3em;
 }
 article:nth-child(2) {
     flex: 2;
@@ -89,7 +83,6 @@ article:nth-child(2) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 2fr 2fr;
     height: 50vh;
-  
 }
 
 #tablero div {
